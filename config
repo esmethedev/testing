@@ -1,0 +1,13 @@
+# Account 1 (personal) - the default config
+
+Host github.com
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_rsa
+
+# Account 2 (work) - the config we are adding
+
+Host github-esmethedev
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_rsa_esmethedev
